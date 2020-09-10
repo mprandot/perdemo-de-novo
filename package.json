@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "node src/index.js --watch -f",
     "start": "pm2 start src/index.js --watch -f"
   },
   "devDependencies": {

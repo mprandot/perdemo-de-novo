@@ -1,6 +1,11 @@
 var schedule = require('node-schedule');
+var mibr = require('./mibr');
 
-schedule.scheduleJob('0/5 * * * * *', function(){
-  console.log('find data and tweet');
-});
+mibr.inspect();
+
+// schedule.scheduleJob('0/5 * * * * *', function(){
+//   
+// });
+
+
 
