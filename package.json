@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "pm2 start src/index.js --watch -f"
+  },
+  "devDependencies": {
+    "pm2": "^4.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "hltv-api": "^2.0.1",
+    "node-schedule": "^1.3.2",
+    "twitter": "^1.7.1"
+  }
+}
